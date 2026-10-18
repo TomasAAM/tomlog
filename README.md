@@ -1,10 +1,10 @@
-# Tomás Aguirre — blog
+# Tomlog
 
 Personal bilingual blog about topics I enjoy, reflections and projects.
 Posts are written in Spanish; the English versions are translated with AI.
 
 Built with [Quarto](https://quarto.org) and published to GitHub Pages at
-<https://tomasaam.github.io>.
+<https://tomasaam.github.io/tomlog>.
 
 ## Structure
 
@@ -57,7 +57,7 @@ Posts appear on the front page sorted by `date`, newest first.
 
 ## Publish
 
-The first time, create an empty public repository called `TomasAAM.github.io`
+The first time, create an empty public repository called `tomlog`
 on GitHub and add it as the `origin` remote. Then:
 
 ```bash

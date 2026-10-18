@@ -10,9 +10,9 @@ filters:
   - translation-link.lua
 
 website:
-  title: "Tomás Aguirre"
+  title: "Tomlog"
   description: "Reflexiones, proyectos y temas que me interesan."
-  site-url: https://tomasaam.github.io
+  site-url: https://tomasaam.github.io/tomlog
   favicon: images/avatar.svg
   navbar:
     right:
