@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "posts/bienvenida/index.html",
+    "href": "posts/bienvenida/index.html",
+    "title": "Bienvenida",
+    "section": "",
+    "text": "Read in English\n\nEste es un post de ejemplo para ver cómo se ve el blog. Bórralo o reemplázalo por tu primer post real."
+  },
+  {
+    "objectID": "en/posts/welcome/index.html",
+    "href": "en/posts/welcome/index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Originally written in Spanish and translated with AI. · Leer en español (original)\n\nThis is an example post to see how the blog looks. Delete it or replace it with your first real post."
+  },
+  {
+    "objectID": "en/index.html",
+    "href": "en/index.html",
+    "title": "Tomás Aguirre",
+    "section": "",
+    "text": "GitHub\n  \n\n  \n  \nHi, I’m Tomás: a data scientist based in Santiago, Chile.\nThis is where I write about topics I enjoy, personal reflections and the projects I’m working on. Posts are written in Spanish and translated into English with AI."
+  },
+  {
+    "objectID": "en/index.html#posts",
+    "href": "en/index.html#posts",
+    "title": "Tomás Aguirre",
+    "section": "Posts",
+    "text": "Posts\n\n\n\n\n\n\n\n\n\n\nWelcome\n\n\n\nreflections\n\n\n\nExample post: replace or delete it once you write your first one.\n\n\n\n\n\nOct 18, 2026\n\n\nTomás Aguirre\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tomás Aguirre",
+    "section": "",
+    "text": "GitHub\n  \n\n  \n  \nHola, soy Tomás: data scientist en Santiago de Chile.\nEste es mi espacio para escribir sobre los temas que me gustan, reflexiones personales y los proyectos en los que voy trabajando."
+  },
+  {
+    "objectID": "index.html#publicaciones",
+    "href": "index.html#publicaciones",
+    "title": "Tomás Aguirre",
+    "section": "Publicaciones",
+    "text": "Publicaciones\n\n\n\n\n\n\n\n\n\n\nBienvenida\n\n\n\nreflexiones\n\n\n\nPost de ejemplo: reemplázalo o bórralo cuando escribas el primero.\n\n\n\n\n\n18 oct 2026\n\n\nTomás Aguirre\n\n\n\n\n\nNo hay resultados"
+  }
+]

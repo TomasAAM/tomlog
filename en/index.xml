@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Tomlog</title>
+<link>https://tomasaam.github.io/tomlog/en/</link>
+<atom:link href="https://tomasaam.github.io/tomlog/en/index.xml" rel="self" type="application/rss+xml"/>
+<description>Reflexiones, proyectos y temas que me interesan.</description>
+<image>
+<url>https://tomasaam.github.io/tomlog/../images/avatar.svg</url>
+<title>Tomlog</title>
+<link>https://tomasaam.github.io/tomlog/en/</link>
+</image>
+<generator>quarto-1.10.19</generator>
+<lastBuildDate>Sun, 18 Oct 2026 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>Welcome</title>
+  <dc:creator>Tomás Aguirre</dc:creator>
+  <link>https://tomasaam.github.io/tomlog/en/posts/welcome/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="translation-link">
+<p><em>Originally written in Spanish and translated with AI.</em> · <a href="../../../posts/bienvenida/index.html">Leer en español (original)</a></p>
+</div>
+<p>This is an example post to see how the blog looks. Delete it or replace it with your first real post.</p>
+
+
+
+ ]]></description>
+  <category>reflections</category>
+  <guid>https://tomasaam.github.io/tomlog/en/posts/welcome/</guid>
+  <pubDate>Sun, 18 Oct 2026 03:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
