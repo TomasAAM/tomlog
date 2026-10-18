@@ -18,13 +18,13 @@
     "href": "en/index.html",
     "title": "Tomás Aguirre",
     "section": "",
-    "text": "Hi, I’m Tomás, a data scientist based in Santiago, Chile. I write about topics I enjoy, personal reflections and the projects I’m working on. Posts are written in Spanish and translated into English with AI.\n\n$ ls posts --sort=date\n\n\n\n  \n    2026-10-18\n    \n      Welcome\n      \n        Example post: replace or delete it once you write your first one.\n        \n          [reflections]\n        \n      \n    \n  \n\n\nNo matching items"
+    "text": "Hi, I’m Tomás, a data scientist based in Santiago, Chile. I write about topics I enjoy, personal reflections and the projects I’m working on. Posts are written in Spanish and translated into English with AI.\n\n&gt;&gt;&gt; posts.sort(\"date\", descending=True)\n\n\n\n  \n    2026-10-18\n    \n      Welcome\n      \n        Example post: replace or delete it once you write your first one.\n        \n          [reflections]\n        \n      \n    \n  \n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Tomás Aguirre",
     "section": "",
-    "text": "Hola, soy Tomás, data scientist en Santiago de Chile. Escribo sobre los temas que me gustan, reflexiones personales y los proyectos en los que voy trabajando.\n\n$ ls posts --sort=date\n\n\n\n  \n    2026-10-18\n    \n      Bienvenida\n      \n        Post de ejemplo: reemplázalo o bórralo cuando escribas el primero.\n        \n          [reflexiones]\n        \n      \n    \n  \n\n\nNo hay resultados"
+    "text": "Hola, soy Tomás, data scientist en Santiago de Chile. Escribo sobre los temas que me gustan, reflexiones personales y los proyectos en los que voy trabajando.\n\n&gt;&gt;&gt; posts.sort(\"date\", descending=True)\n\n\n\n  \n    2026-10-18\n    \n      Bienvenida\n      \n        Post de ejemplo: reemplázalo o bórralo cuando escribas el primero.\n        \n          [reflexiones]\n        \n      \n    \n  \n\n\nNo hay resultados"
   }
 ]
