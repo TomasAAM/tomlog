@@ -1,0 +1,11 @@
+<header id="title-block-header" class="quarto-title-block post-header">
+$if(date)$
+<p class="post-meta"><span class="post-date">$date$</span>$if(categories)$ ·$for(categories)$ <span class="post-cat" data-cat="$categories$">[$categories$]</span>$endfor$$endif$</p>
+$endif$
+$if(title)$
+<h1 class="title">$title$</h1>
+$endif$
+$if(subtitle)$
+<p class="subtitle lead">$subtitle$</p>
+$endif$
+</header>

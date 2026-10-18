@@ -18,12 +18,24 @@ blog/
 │   ├── index.qmd          # English front page
 │   └── posts/<slug>/index.qmd  # English translations
 ├── _post-template.qmd     # copy this to start a new post
+├── _posts.ejs             # layout of the post list on both front pages
+├── _partials/
+│   └── title-block.html   # post header: date, [category] and title
 ├── translation-link.lua   # adds the ES/EN link and the AI-translation note
-├── custom.scss            # small style tweaks on top of the theme
+├── custom.scss            # dark theme: colours, fonts and layout
 └── images/                # profile picture and shared images
 ```
 
 Files and folders starting with `_` are not rendered as pages.
+
+## Design
+
+A single dark theme built on Bootstrap's `darkly`, defined in `custom.scss`.
+Text uses IBM Plex Sans; the logo, menu, dates and categories use JetBrains
+Mono (both loaded from Google Fonts). All colours are variables at the top of
+`custom.scss`. Categories `reflexiones`/`reflections` and
+`proyectos`/`projects` get their own colour; any other category uses the
+amber accent.
 
 ## Requirements
 

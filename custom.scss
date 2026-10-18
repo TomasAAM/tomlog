@@ -1,12 +1,196 @@
+/*-- scss:defaults --*/
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@400;500&display=swap");
+
+$bg: #17150F;
+$bg-raised: #211E17;
+$line: #2E2A22;
+$text: #E8E2D6;
+$text-soft: #C9BFA9;
+$text-muted-warm: #9A9284;
+$amber: #E3A65B;
+$violet: #C49BD8;
+$sky: #7FB8D4;
+
+$body-bg: $bg;
+$body-color: $text;
+$text-muted: $text-muted-warm;
+$primary: $amber;
+$link-color: $amber;
+$border-color: $line;
+
+$navbar-bg: $bg;
+$navbar-fg: $text-muted-warm;
+$navbar-hl: $amber;
+$footer-bg: $bg;
+
+$font-family-sans-serif: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+$font-family-monospace: "JetBrains Mono", ui-monospace, "Cascadia Mono", monospace;
+$headings-font-weight: 500;
+
+$code-color: $amber;
+$code-block-bg: $bg-raised;
+
 /*-- scss:rules --*/
 
-.translation-link {
-  font-size: 0.9rem;
-  padding: 0.5rem 0.75rem;
-  margin-bottom: 1.5rem;
-  border-left: 3px solid $primary;
+%mono {
+  font-family: $font-family-monospace;
 }
 
-.translation-link p {
-  margin: 0;
+// Navbar: "~/tomlog" logo and a "[es] en" switch keyed on the page language.
+.navbar {
+  border-bottom: 1px solid $line;
+}
+
+.navbar-title {
+  @extend %mono;
+  font-size: 1rem;
+  font-weight: 500;
+  color: $text;
+
+  &::before {
+    content: "~/";
+    color: $amber;
+  }
+}
+
+.navbar .nav-link {
+  @extend %mono;
+  font-size: 0.85rem;
+}
+
+// The first two navbar items on the right are "es" and "en" (see _quarto.yml).
+html[lang="es"] .navbar-nav.ms-auto > .nav-item:nth-child(1) .menu-text,
+html[lang="en"] .navbar-nav.ms-auto > .nav-item:nth-child(2) .menu-text {
+  color: $amber;
+
+  &::before { content: "["; }
+  &::after { content: "]"; }
+}
+
+// Front page
+.home #title-block-header {
+  display: none;
+}
+
+.intro p {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin: 1rem 0 2rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  font-style: italic;
+  color: $text-soft;
+}
+
+.intro .avatar {
+  width: 64px;
+  height: 64px;
+  flex: none;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.ls-label {
+  @extend %mono;
+  display: block;
+  font-size: 0.8rem;
+  color: $text-muted-warm;
+  margin-bottom: 0.4rem;
+  // JetBrains Mono would otherwise draw "--" as one long dash.
+  font-variant-ligatures: none;
+}
+
+// Post list rendered by _posts.ejs
+.post-row {
+  display: grid;
+  grid-template-columns: 6.5rem minmax(0, 1fr);
+  gap: 0.25rem 1rem;
+  padding: 0.85rem 0;
+  border-top: 1px solid $line;
+
+  @include media-breakpoint-down(sm) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.post-row .post-date {
+  @extend %mono;
+  font-size: 0.8rem;
+  color: $text-muted-warm;
+  padding-top: 0.2rem;
+}
+
+.post-row .post-title {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: $text;
+  text-decoration: none;
+
+  &:hover {
+    color: $amber;
+  }
+}
+
+.post-row .post-desc {
+  font-size: 0.9rem;
+  color: $text-muted-warm;
+}
+
+// Category colours, shared by the post list and the post header.
+.post-cat {
+  @extend %mono;
+  font-size: 0.75rem;
+  color: $amber;
+
+  &[data-cat="reflexiones"], &[data-cat="reflections"] { color: $violet; }
+  &[data-cat="proyectos"], &[data-cat="projects"] { color: $sky; }
+}
+
+// Post pages (header comes from _partials/title-block.html)
+.post-header {
+  margin-bottom: 1.5rem;
+}
+
+.post-header .post-meta {
+  @extend %mono;
+  font-size: 0.8rem;
+  color: $text-muted-warm;
+  margin-bottom: 0.5rem;
+}
+
+.post-header .title {
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+.translation-link {
+  @extend %mono;
+  font-size: 0.8rem;
+  padding: 0.35rem 0.75rem;
+  margin-bottom: 1.5rem;
+  border-left: 2px solid $amber;
+  color: $text-soft;
+
+  p {
+    margin: 0;
+  }
+
+  p::before {
+    content: "→ ";
+  }
+}
+
+main p,
+main li {
+  line-height: 1.7;
+}
+
+div.sourceCode,
+pre {
+  border: none;
+  border-radius: 6px;
+  background-color: $bg-raised;
 }

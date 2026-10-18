@@ -3,6 +3,7 @@ project:
   output-dir: _site
 
 lang: es
+date-format: "YYYY-MM-DD"
 
 # Adds the "read in the other language" link and the AI-translation note
 # to any post that declares a `translation:` path in its front matter.
@@ -14,11 +15,14 @@ website:
   description: "Reflexiones, proyectos y temas que me interesan."
   site-url: https://tomasaam.github.io/tomlog
   favicon: images/avatar.svg
+  search: false
   navbar:
+    title: "tomlog"
+    collapse: false
     right:
-      - text: "ES"
+      - text: "es"
         href: index.qmd
-      - text: "EN"
+      - text: "en"
         href: en/index.qmd
       - icon: github
         href: https://github.com/TomasAAM
@@ -29,6 +33,7 @@ website:
 
 format:
   html:
-    theme:
-      light: [flatly, custom.scss]
-      dark: [darkly, custom.scss]
+    theme: [darkly, custom.scss]
+    highlight-style: zenburn
+    template-partials:
+      - _partials/title-block.html

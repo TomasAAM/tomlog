@@ -1,0 +1,18 @@
+```{=html}
+<div class="list post-log">
+<% for (const item of items) { %>
+  <div class="post-row">
+    <span class="post-date"><%= item.date %></span>
+    <div>
+      <a class="post-title" href="<%- item.path %>"><%= item.title %></a>
+      <div class="post-desc">
+        <% if (item.description) { %><%= item.description %><% } %>
+        <% for (const category of (item.categories || [])) { %>
+          <span class="post-cat" data-cat="<%= category %>">[<%= category %>]</span>
+        <% } %>
+      </div>
+    </div>
+  </div>
+<% } %>
+</div>
+```
