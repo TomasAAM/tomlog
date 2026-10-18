@@ -1,0 +1,10 @@
+---
+title: "Bienvenida"
+description: "Post de ejemplo: reemplázalo o bórralo cuando escribas el primero."
+date: 2026-10-18
+categories: [reflexiones]
+translation: ../../en/posts/welcome/index.qmd
+---
+
+Este es un post de ejemplo para ver cómo se ve el blog. Bórralo o reemplázalo
+por tu primer post real.

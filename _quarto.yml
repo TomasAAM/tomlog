@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: _site
+
+lang: es
+
+# Adds the "read in the other language" link and the AI-translation note
+# to any post that declares a `translation:` path in its front matter.
+filters:
+  - translation-link.lua
+
+website:
+  title: "Tomás Aguirre"
+  description: "Reflexiones, proyectos y temas que me interesan."
+  site-url: https://tomasaam.github.io
+  favicon: images/avatar.svg
+  navbar:
+    right:
+      - text: "ES"
+        href: index.qmd
+      - text: "EN"
+        href: en/index.qmd
+      - icon: github
+        href: https://github.com/TomasAAM
+        aria-label: GitHub
+      - icon: rss
+        href: index.xml
+        aria-label: RSS
+
+format:
+  html:
+    theme:
+      light: [flatly, custom.scss]
+      dark: [darkly, custom.scss]

@@ -1,0 +1,10 @@
+---
+title: "Título del post"
+description: "Una frase que resuma el post (aparece en la portada)."
+date: YYYY-MM-DD
+categories: [reflexiones]
+# Path from this post to its English version. Remove the line if there is none yet.
+translation: ../../en/posts/<slug-en>/index.qmd
+---
+
+Escribe aquí.

@@ -1,0 +1,10 @@
+---
+title: "Welcome"
+description: "Example post: replace or delete it once you write your first one."
+date: 2026-10-18
+categories: [reflections]
+translation: ../../../posts/bienvenida/index.qmd
+---
+
+This is an example post to see how the blog looks. Delete it or replace it
+with your first real post.

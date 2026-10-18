@@ -1,0 +1,3 @@
+author: "Tomás Aguirre"
+# Never re-execute code in already published posts during a site render.
+freeze: true

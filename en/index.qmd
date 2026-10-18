@@ -1,0 +1,37 @@
+---
+title: "Tomás Aguirre"
+image: ../images/avatar.svg
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image-width: 10em
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/TomasAAM
+listing:
+  id: posts
+  # Quarto globs match recursively; the leading slash stops this one from
+  # also matching en/posts and mixing both languages on one page.
+  contents: "/posts/*/index.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  feed: true
+---
+
+::: {#about}
+Hi, I'm Tomás: a data scientist based in Santiago, Chile.
+
+This is where I write about topics I enjoy, personal reflections and the
+projects I'm working on. Posts are written in Spanish and translated into
+English with AI.
+:::
+
+## Posts
+
+::: {#posts}
+:::

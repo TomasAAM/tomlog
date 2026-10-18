@@ -1,0 +1,36 @@
+---
+title: "Tomás Aguirre"
+image: images/avatar.svg
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image-width: 10em
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/TomasAAM
+listing:
+  id: posts
+  # Quarto globs match recursively; the leading slash stops this one from
+  # also matching en/posts and mixing both languages on one page.
+  contents: "/posts/*/index.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  feed: true
+---
+
+::: {#about}
+Hola, soy Tomás: data scientist en Santiago de Chile.
+
+Este es mi espacio para escribir sobre los temas que me gustan, reflexiones
+personales y los proyectos en los que voy trabajando.
+:::
+
+## Publicaciones
+
+::: {#posts}
+:::
