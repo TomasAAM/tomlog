@@ -9,11 +9,6 @@
 <link>https://tomasaam.github.io/tomlog/en/</link>
 <atom:link href="https://tomasaam.github.io/tomlog/en/index.xml" rel="self" type="application/rss+xml"/>
 <description>Reflexiones, proyectos y temas que me interesan.</description>
-<image>
-<url>https://tomasaam.github.io/tomlog/../images/avatar.svg</url>
-<title>Tomlog</title>
-<link>https://tomasaam.github.io/tomlog/en/</link>
-</image>
 <generator>quarto-1.10.19</generator>
 <lastBuildDate>Sun, 18 Oct 2026 03:00:00 GMT</lastBuildDate>
 <item>
@@ -21,7 +16,6 @@
   <dc:creator>Tomás Aguirre</dc:creator>
   <link>https://tomasaam.github.io/tomlog/en/posts/welcome/</link>
   <description><![CDATA[ 
-
 
 
 
