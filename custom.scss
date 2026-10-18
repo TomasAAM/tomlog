@@ -98,8 +98,12 @@ html[lang="en"] .navbar-nav.ms-auto > .nav-item:nth-child(2) .menu-text {
   font-size: 0.8rem;
   color: $text-muted-warm;
   margin-bottom: 0.4rem;
-  // JetBrains Mono would otherwise draw "--" as one long dash.
+  // Keeps ">>>" as three characters instead of a JetBrains Mono ligature.
   font-variant-ligatures: none;
+
+  .tok-fn { color: $sky; }
+  .tok-str { color: $amber; }
+  .tok-kw { color: $violet; }
 }
 
 // Post list rendered by _posts.ejs

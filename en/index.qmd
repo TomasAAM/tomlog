@@ -16,7 +16,9 @@ listing:
 ![](../images/avatar.svg){.avatar fig-alt="Tomás Aguirre"} Hi, I'm Tomás, a data scientist based in Santiago, Chile. I write about topics I enjoy, personal reflections and the projects I'm working on. Posts are written in Spanish and translated into English with AI.
 :::
 
-[\$ ls posts \-\-sort=date]{.ls-label}
+```{=html}
+<p class="ls-label">&gt;&gt;&gt; posts.<span class="tok-fn">sort</span>(<span class="tok-str">"date"</span>, descending=<span class="tok-kw">True</span>)</p>
+```
 
 ::: {#posts}
 :::

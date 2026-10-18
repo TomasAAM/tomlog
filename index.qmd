@@ -16,7 +16,9 @@ listing:
 ![](images/avatar.svg){.avatar fig-alt="Tomás Aguirre"} Hola, soy Tomás, data scientist en Santiago de Chile. Escribo sobre los temas que me gustan, reflexiones personales y los proyectos en los que voy trabajando.
 :::
 
-[\$ ls posts \-\-sort=date]{.ls-label}
+```{=html}
+<p class="ls-label">&gt;&gt;&gt; posts.<span class="tok-fn">sort</span>(<span class="tok-str">"date"</span>, descending=<span class="tok-kw">True</span>)</p>
+```
 
 ::: {#posts}
 :::
