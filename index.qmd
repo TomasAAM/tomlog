@@ -13,7 +13,7 @@ listing:
 ---
 
 ::: {.intro}
-![](images/avatar.svg){.avatar fig-alt="Tomás Aguirre"} Hola, soy Tomás, data scientist en Santiago de Chile. Escribo sobre los temas que me gustan, reflexiones personales y los proyectos en los que voy trabajando.
+![](images/avatar.svg){.avatar fig-alt="Tomás Aguirre"} Hola! Si estás leyendo esto es porque me animé a compartir el link de este experimento donde espero poder ir profundizando sobre diferentes temas, proyectos personales, experimentos, etc. 
 :::
 
 ```{=html}

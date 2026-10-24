@@ -1,10 +1,11 @@
 ---
-title: "Bienvenida"
-description: "Post de ejemplo: reemplázalo o bórralo cuando escribas el primero."
+title: "Piloto"
+description: "Piloto: ¿Por qué?"
 date: 2026-10-18
 categories: [reflexiones]
 translation: ../../en/posts/welcome/index.qmd
 ---
 
-Este es un post de ejemplo para ver cómo se ve el blog. Bórralo o reemplázalo
-por tu primer post real.
+En mi día a día, tanto laboral como personal, cada vez escribo menos. De hecho, fue hasta hace poco que tomé un cuaderno para ir escribiendo lo que surja después de haber visto [este video](https://youtu.be/4Nq99I4ySqw). Es un experimento que tengo en curso. La primera semana escribí todos los días sobre cualquier cosa, temas relevantes que surgieran a lo largo del día. La semana pasada escribí una vez. Lo cual tampoco creo que esté mal, si finalmente la idea tampoco es forzarse a escribir. Es más el tener el cuaderno disponible para cuando algo surja, y poder también ir leyendo cosas pasadas que haya escrito. 
+
+De igual manera, me dieron ganas de ocasionalmente, tomar temas, películas/series, situaciones, y darles una vuelta intentado ir un poco más allá del pensamiento directo. Escribiéndolo y conservándo esas ideas aquí. Obviamente sin usar IA para la redacción, ya que no tendría sentido. Por lo que probablemente pase mucho que me termine enredando con las ideas, y la redacción/coherencia no sea la mejor. De todas maneras le vamos a poner empeño.
