@@ -23,7 +23,9 @@ blog/
 │   └── title-block.html   # post header: date, [category] and title
 ├── translation-link.lua   # adds the ES/EN link and the AI-translation note
 ├── custom.scss            # dark theme: colours, fonts and layout
-└── images/                # profile picture and shared images
+├── images/                # profile picture and shared images
+└── .github/workflows/
+    └── publish.yml        # renders and deploys the site on every push to main
 ```
 
 Files and folders starting with `_` are not rendered as pages.
@@ -69,15 +71,14 @@ Posts appear on the front page sorted by `date`, newest first.
 
 ## Publish
 
-The first time, create an empty public repository called `tomlog`
-on GitHub and add it as the `origin` remote. Then:
+Every push to `main` publishes the site. The GitHub Actions workflow in
+`.github/workflows/publish.yml` renders it with Quarto and deploys it to
+GitHub Pages; the rendered site is never committed to the repository.
+Progress and errors show up in the repository's **Actions** tab, where the
+workflow can also be run by hand.
 
-```bash
-quarto publish gh-pages
-```
-
-This renders the site and pushes it to the `gh-pages` branch. In the
-repository settings, set **Pages → Source** to the `gh-pages` branch.
+One-time setup: in the repository settings, set **Pages → Source** to
+**GitHub Actions**.
 
 ## Custom domain (optional)
 
